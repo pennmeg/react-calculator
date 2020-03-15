@@ -1,0 +1,22 @@
+.calculator {
+  width: 30%;
+  margin: 2em auto;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.total {
+  background-color: #5c5c5c;
+  color: white;
+  height: 70px;
+}
+
+.buttonContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.zero {
+  grid-column: span 2;
+}
