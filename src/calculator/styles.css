@@ -1,14 +1,22 @@
 .calculator {
   width: 30%;
+  min-width: 280px;
   margin: 2em auto;
   border: 1px solid black;
   border-radius: 4px;
 }
 
 .total {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 70px;
+  width: 100%;
+  min-width: 280px;
+  padding: 10px;
   background-color: #5c5c5c;
   color: white;
-  height: 70px;
 }
 
 .buttonContainer {
